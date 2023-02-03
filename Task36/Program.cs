@@ -10,7 +10,7 @@ int[] InitArray (int userLength)
     Random rnd = new Random();
     for (int i=0; i < userLength; i++)
     {
-        randomArray[i] = rnd.Next(1,10);
+        randomArray[i] = rnd.Next(1,100);
     }
     return randomArray;
 }
